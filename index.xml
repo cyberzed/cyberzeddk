@@ -6,8 +6,22 @@
     <description>Recent content on cyberzeddk - opinions with a slight chance of snow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://cyberzed.dk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://cyberzed.dk/about/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cyberzed.dk/about/</guid>
+      <description>&lt;p&gt;Nerd living in Aarhus, Denmark.&lt;/p&gt;
+
+&lt;p&gt;Fiddles with random stuff ranging from USB devices, regular websites and security stuff.&lt;/p&gt;
+
+&lt;p&gt;Mostly using .NET/C# but from time to time I venture into other stuff.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Speaker engagements</title>
@@ -82,20 +96,6 @@
 &lt;h2 id=&#34;ndc-oslo-norway&#34;&gt;NDC (Oslo, Norway)&lt;/h2&gt;
 
 &lt;p&gt;No more magical webservices feat. ServiceStack - &lt;a href=&#34;https://vimeo.com/43808788&#34;&gt;Video&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://cyberzed.dk/about/</link>
-      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://cyberzed.dk/about/</guid>
-      <description>&lt;p&gt;Nerd living in Aarhus, Denmark.&lt;/p&gt;
-
-&lt;p&gt;Fiddles with random stuff ranging from USB devices to regular websites.&lt;/p&gt;
-
-&lt;p&gt;Mostly using .NET/C# but from time to time I venture into other stuff.&lt;/p&gt;
 </description>
     </item>
     
