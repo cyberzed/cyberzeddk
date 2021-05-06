@@ -1,49 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cyberzeddk - opinions with a slight chance of snow</title>
-    <link>http://cyberzed.dk/categories/git/index.xml</link>
-    <description>Recent content on cyberzeddk - opinions with a slight chance of snow</description>
+    <title>git on cyberzeddk</title>
+    <link>http://cyberzed.dk/categories/git/</link>
+    <description>Recent content in git on cyberzeddk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="http://cyberzed.dk/categories/git/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://cyberzed.dk/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>common git alias</title>
       <link>http://cyberzed.dk/post/common-git-alias/</link>
-      <pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://cyberzed.dk/post/common-git-alias/</guid>
-      <description>
-
-&lt;p&gt;As I read on &lt;a href=&#34;http://www.brendanforster.com/notes/git-alias.html&#34;&gt;shiftkey&lt;/a&gt; blog &amp;ldquo;perhaps the most overlooked command of git is alias&amp;rdquo;. I have to agree with him on that one, when I started out with git I used GitExtensions mostly due to me not being able to remember the commands. I wasn&amp;rsquo;t using git fulltime so it was really hard to digg down my brain and find the syntax every time I needed it.&lt;/p&gt;
-
-&lt;p&gt;Over the years I have been collecting the aliases that makes sense for me, and by that I really mean makes sense for me :) I might have lost a few recently when I had to reinstall my laptop after a complete crash, but below you will find those I have recovered and remember to have been using quite a bunch.&lt;/p&gt;
-
-&lt;h3 id=&#34;common-actions&#34;&gt;Common actions&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;st - status -s
-dh - diff HEAD
-aa - add -A
-cm - commit -m
-ups - commit -a --amend
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;branches&#34;&gt;Branches&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;co - checkout
-cob - checkout -b
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;log&#34;&gt;Log&lt;/h3&gt;
-
-&lt;p&gt;This part is mostly different views on logs, honestly I&amp;rsquo;m not sure it would make sense for anyone but me. Use it for inspiration and go modify it to fit your needs. Tharrr be no silverbullets here neither.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ls - log --pretty=format:&amp;quot;%C(yellow)%h %ad%Cred%d %Creset%s%Cgreen [%cn]&amp;quot; --decorate --date=relative
-ll - log --pretty=format:&amp;quot;%C(yellow)%h %ad%Cred%d %Creset%s%Cgreen [%cn]&amp;quot; --decorate --date=relative --numstat
-fl - log -u
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>Over the years I have been collecting the aliases that makes sense for me, and by that I really mean makes sense for me :) I might have lost a few recently when I had to reinstall my laptop after a complete crash, but below you will find those I have recovered and remember to have been using quite a bunch.
+Common actions st - status -s dh - diff HEAD aa - add -A cm - commit -m ups - commit -a --amend  Branches co - checkout cob - checkout -b pur = pull --rebase origin  Log This part is mostly different views on logs, honestly I&amp;rsquo;m not sure it would make sense for anyone but me.</description>
     </item>
     
   </channel>
