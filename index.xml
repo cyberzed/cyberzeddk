@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cyberzeddk</title>
-    <link>http://cyberzed.dk/</link>
+    <link>https://cyberzed.dk/</link>
     <description>Recent content on cyberzeddk</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://cyberzed.dk/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://cyberzed.dk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>common git alias</title>
-      <link>http://cyberzed.dk/post/common-git-alias/</link>
+      <link>https://cyberzed.dk/post/common-git-alias/</link>
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://cyberzed.dk/post/common-git-alias/</guid>
+      <guid>https://cyberzed.dk/post/common-git-alias/</guid>
       <description>Over the years I have been collecting the aliases that makes sense for me, and by that I really mean makes sense for me :) I might have lost a few recently when I had to reinstall my laptop after a complete crash, but below you will find those I have recovered and remember to have been using quite a bunch.
 Common actions st - status -s dh - diff HEAD aa - add -A cm - commit -m ups - commit -a --amend  Branches co - checkout cob - checkout -b pur = pull --rebase origin  Log This part is mostly different views on logs, honestly I&amp;rsquo;m not sure it would make sense for anyone but me.</description>
     </item>
