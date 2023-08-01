@@ -4,6 +4,7 @@
     <title>Author on cyberzeddk</title>
     <link>https://cyberzed.dk/author/</link>
     <description>Recent content in Author on cyberzeddk</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://cyberzed.dk/author/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://cyberzed.dk/author/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
