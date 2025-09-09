@@ -4,14 +4,14 @@
   
 <html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="en">
 
-<head>
+<head prefix="og: http://ogp.me/ns#">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="siteBaseUrl" content="https://cyberzed.dk/">
     <meta name="author" content="Stefan Daugaard Poulsen">
     <meta name="description" content="cyberzeddk - opinions with a slight chance of snow">
     <meta name="keywords" content="blog,beer,security">
-    <meta name="generator" content="Hugo 0.116.0">
+    <meta name="generator" content="Hugo 0.150.0">
     <title>
         
            
@@ -23,10 +23,12 @@
     <meta itemprop="description" content="cyberzeddk - opinions with a slight chance of snow">
     <meta property="og:site_name" content="cyberzeddk">
 
-    <meta property="og:title" content="cyberzeddk" />
-<meta property="og:description" content="cyberzeddk - opinions with a slight chance of snow" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://cyberzed.dk/" />
+    <meta property="og:url" content="https://cyberzed.dk/">
+  <meta property="og:site_name" content="cyberzeddk">
+  <meta property="og:title" content="cyberzeddk">
+  <meta property="og:description" content="cyberzeddk - opinions with a slight chance of snow">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
 
 
     
@@ -43,10 +45,12 @@
 
     
 
+    
+
 
 
     
-    <link rel="stylesheet" href="https://cyberzed.dk/theme.min.70168d55f2a7016525113196d85567baef5fcb440c481a70f201de1d3083067d.css" integrity="sha256-cBaNVfKnAWUlETGW2FVnuu9fy0QMSBpw8gHeHTCDBn0=" media="screen">
+    <link id="theme-css" rel="stylesheet" href="https://cyberzed.dk/theme.min.a75857f14563af511864be67f9c31978c19cc5cab5c4b011b5f0b4693eb3aa0d.css" integrity="sha256-p1hX8UVjr1EYZL5n&#43;cMZeMGcxcq1xLARtfC0aT6zqg0=" media="screen" crossorigin="anonymous">
 
 
 
@@ -117,8 +121,10 @@
                 <span class="subtitle">opinions with a slight chance of snow</span>
             
         </div>
-
-        
+        <div class="selectors">
+          
+          
+       </div>
 
         
             <div class="toggler permanentTopNav">
@@ -190,7 +196,7 @@
                 
                     
                     
-                        <a href="https://cyberzed.dk/categories/developer/">developer</a>
+                        <a href="https://cyberzed.dk/categories/developer/">Developer</a>
                     
                 
             </span>
@@ -200,8 +206,21 @@
     </div>
 
     
-        Over the years I have been collecting the aliases that makes sense for me, and by that I really mean makes sense for me :) I might have lost a few recently when I had to reinstall my laptop after a complete crash, but below you will find those I have recovered and remember to have been using quite a bunch.
-Common actions st - status -sdh - diff HEADaa - add -Acm - commit -mups - commit -a --amendBranches co - checkoutcob - checkout -bpur = pull --rebase originLog This part is mostly different views on logs, honestly I&rsquo;m not sure it would make sense for anyone but me.
+        <p>Over the years I have been collecting the aliases that makes sense for me, and by that I really mean makes sense for me :) I might have lost a few recently when I had to reinstall my laptop after a complete crash, but below you will find those I have recovered and remember to have been using quite a bunch.</p>
+<h3 id="common-actions">Common actions</h3>
+<pre><code>st - status -s
+dh - diff HEAD
+aa - add -A
+cm - commit -m
+ups - commit -a --amend
+</code></pre>
+<h3 id="branches">Branches</h3>
+<pre><code>co - checkout
+cob - checkout -b
+pur = pull --rebase origin
+</code></pre>
+<h3 id="log">Log</h3>
+<p>This part is mostly different views on logs, honestly I&rsquo;m not sure it would make sense for anyone but me. Use it for inspiration and go modify it to fit your needs. Tharrr be no silverbullets here neither.</p>
 
         
             <a href="https://cyberzed.dk/article/common-git-alias/" class="more">Continue reading</a>
@@ -220,7 +239,7 @@ Common actions st - status -sdh - diff HEADaa - add -Acm - commit -mups - co
                 
                     
                     
-                    <a href="https://cyberzed.dk/tags/git/">git</a>
+                    <a href="https://cyberzed.dk/tags/git/">Git</a>
                     
                 
             </div>
@@ -277,7 +296,7 @@ Common actions st - status -sdh - diff HEADaa - add -Acm - commit -mups - co
                 
                 <li>
                 
-                    <a href="https://cyberzed.dk/categories/developer/">developer (1)</a>
+                    <a href="https://cyberzed.dk/categories/developer/">Developer (1)</a>
                 
                 </li>
                 
@@ -317,7 +336,7 @@ Common actions st - status -sdh - diff HEADaa - add -Acm - commit -mups - co
             <a href="https://github.com/Lednerb" target="_blank">
                 &copy;
                 
-                2017 - 2023
+                2017 - 2025
                 
                 by Lednerb
             </a>
@@ -333,30 +352,25 @@ Common actions st - status -sdh - diff HEADaa - add -Acm - commit -mups - co
 
 
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PMLCJ111N"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-5PMLCJ111N', { 'anonymize_ip': false });
-}
-</script>
-
-
-    
-
-    
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PMLCJ111N"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5PMLCJ111N');
+        }
+      </script>
 
     
 
     
 
-    
-
-    
 
     
 
@@ -366,6 +380,14 @@ if (!doNotTrack) {
 
     
 
+    
+
+    
+
+    
+
+    
+
 
 
 
@@ -380,7 +402,7 @@ if (!doNotTrack) {
 
 
     
-    <script src="https://cyberzed.dk/theme.min.a6bec73b5fb6ad84b3be91709214655e380894c4695e8e085abd236197fb0192.js" integrity="sha256-pr7HO1&#43;2rYSzvpFwkhRlXjgIlMRpXo4IWr0jYZf7AZI="></script>
+    <script src="https://cyberzed.dk/theme.min.1dec69efc3e4667657429f0a98397d9e322e5c78b03c4a3656a4effe58157022.js" integrity="sha256-Hexp78PkZnZXQp8KmDl9njIuXHiwPEo2VqTv/lgVcCI=" crossorigin="anonymous"></script>
 
 
 

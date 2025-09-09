@@ -4,18 +4,16 @@
     <title>Articles on cyberzeddk</title>
     <link>https://cyberzed.dk/article/</link>
     <description>Recent content in Articles on cyberzeddk</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 May 2021 16:00:00 +0200</lastBuildDate><atom:link href="https://cyberzed.dk/article/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 May 2021 17:47:55 +0200</lastBuildDate>
+    <atom:link href="https://cyberzed.dk/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Common Git Alias</title>
       <link>https://cyberzed.dk/article/common-git-alias/</link>
       <pubDate>Thu, 06 May 2021 16:00:00 +0200</pubDate>
-      
       <guid>https://cyberzed.dk/article/common-git-alias/</guid>
-      <description>Over the years I have been collecting the aliases that makes sense for me, and by that I really mean makes sense for me :) I might have lost a few recently when I had to reinstall my laptop after a complete crash, but below you will find those I have recovered and remember to have been using quite a bunch.
-Common actions st - status -sdh - diff HEADaa - add -Acm - commit -mups - commit -a --amendBranches co - checkoutcob - checkout -bpur = pull --rebase originLog This part is mostly different views on logs, honestly I&amp;rsquo;m not sure it would make sense for anyone but me.</description>
+      <description>&lt;p&gt;Over the years I have been collecting the aliases that makes sense for me, and by that I really mean makes sense for me :) I might have lost a few recently when I had to reinstall my laptop after a complete crash, but below you will find those I have recovered and remember to have been using quite a bunch.&lt;/p&gt;&#xA;&lt;h3 id=&#34;common-actions&#34;&gt;Common actions&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;st - status -s&#xA;dh - diff HEAD&#xA;aa - add -A&#xA;cm - commit -m&#xA;ups - commit -a --amend&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;branches&#34;&gt;Branches&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;co - checkout&#xA;cob - checkout -b&#xA;pur = pull --rebase origin&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;log&#34;&gt;Log&lt;/h3&gt;&#xA;&lt;p&gt;This part is mostly different views on logs, honestly I&amp;rsquo;m not sure it would make sense for anyone but me. Use it for inspiration and go modify it to fit your needs. Tharrr be no silverbullets here neither.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
