@@ -5,7 +5,7 @@
     <description>Recent content on cyberzeddk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Jul 2021 15:30:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 12:43:56 +0200</lastBuildDate>
     
         <atom:link href="https://cyberzed.dk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,19 +17,17 @@
       
       <guid>https://cyberzed.dk/article/common-git-alias/</guid>
       <description>&lt;p&gt;Over the years I have been collecting the aliases that makes sense for me, and by that I really mean makes sense for me :) I might have lost a few recently when I had to reinstall my laptop after a complete crash, but below you will find those I have recovered and remember to have been using quite a bunch.&lt;/p&gt;
-&lt;h3 id=&#34;common-actions&#34;&gt;Common actions&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;st - status -s
-dh - diff HEAD
-aa - add -A
-cm - commit -m
-ups - commit -a --amend
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;branches&#34;&gt;Branches&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;co - checkout
-cob - checkout -b
-pur = pull --rebase origin
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;log&#34;&gt;Log&lt;/h3&gt;
+&lt;h2 id=&#34;common-actions&#34;&gt;Common actions&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    st - status -s
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    dh - diff HEAD
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    aa - add -A
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cm - commit -m
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ups - commit -a --amend
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;branches&#34;&gt;Branches&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    co - checkout
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cob - checkout -b
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pur = pull --rebase origin
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;log&#34;&gt;Log&lt;/h2&gt;
 &lt;p&gt;This part is mostly different views on logs, honestly I&amp;rsquo;m not sure it would make sense for anyone but me. Use it for inspiration and go modify it to fit your needs. Tharrr be no silverbullets here neither.&lt;/p&gt;</description>
     </item>
     
