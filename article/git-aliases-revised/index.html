@@ -26,12 +26,13 @@
     <meta property="og:url" content="http://localhost:1313/article/git-aliases-revised/">
   <meta property="og:site_name" content="cyberzeddk">
   <meta property="og:title" content="Git Aliases Revised">
-  <meta property="og:description" content="cyberzeddk - opinions with a slight chance of snow">
+  <meta property="og:description" content="Looking back at my old very single post about git aliases made me realize that I have changed quite a few bits since then. It’s not just the aliases anymore, it’s more about my full git configuration.
+General configurations [column] ui = auto [branch] sort = -committerdate [tag] sort = version:refname [diff] algorithm = histogram colorMoved = plain mnemonixprefix = true renames = true [fetch] prune = true pruneTags = true all = true [rebase] autoStash = true autoSquash = true updateRefs = true [pull] rebase = true [push] default = simple autoSetupRemote = true followTags = true Formatting [pretty] slog = format:%C(auto)%h %C(magenta)%ad %C(auto)%d%C(auto) %s %C(green)[%cn] Aliases st = status -s pur = pull --rebase origin aa = add -A cm = commit -m ups = commit -a --amend co = checkout cob = checkout -b dh = diff HEAD wdiff = diff -w --word-diff=color --ignore-space-at-eol ls = log --pretty=slog --decorate --date=relative ll = log --pretty=slog --decorate --date=relative --numstat fl = log -u start = !git init &amp;&amp; git commit --allow-empty -m \&#34;Initial commit\&#34;">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="article">
     <meta property="article:published_time" content="2025-09-09T12:43:56+02:00">
-    <meta property="article:modified_time" content="2025-09-09T12:43:56+02:00">
+    <meta property="article:modified_time" content="2025-09-09T12:48:57+02:00">
     <meta property="article:tag" content="Git">
 
 
@@ -173,7 +174,7 @@
 
         
             
-                <span class="readingTime">0 min read</span>
+                <span class="readingTime">1 min read</span>
             
         
 
@@ -194,7 +195,51 @@
     
         
 
-        
+        <p>Looking back at my old very single post about git aliases made me realize that I have changed quite a few bits since then. It&rsquo;s not just the aliases anymore, it&rsquo;s more about my full git configuration.</p>
+<h2 id="general-configurations">General configurations</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>    [column]
+</span></span><span style="display:flex;"><span>        ui = auto
+</span></span><span style="display:flex;"><span>    [branch]
+</span></span><span style="display:flex;"><span>        sort = -committerdate
+</span></span><span style="display:flex;"><span>    [tag]
+</span></span><span style="display:flex;"><span>        sort = version:refname
+</span></span><span style="display:flex;"><span>    [diff]
+</span></span><span style="display:flex;"><span>        algorithm = histogram
+</span></span><span style="display:flex;"><span>        colorMoved = plain
+</span></span><span style="display:flex;"><span>        mnemonixprefix = true
+</span></span><span style="display:flex;"><span>        renames = true
+</span></span><span style="display:flex;"><span>    [fetch]
+</span></span><span style="display:flex;"><span>        prune = true
+</span></span><span style="display:flex;"><span>        pruneTags = true
+</span></span><span style="display:flex;"><span>        all = true
+</span></span><span style="display:flex;"><span>    [rebase]
+</span></span><span style="display:flex;"><span>        autoStash = true
+</span></span><span style="display:flex;"><span>        autoSquash = true
+</span></span><span style="display:flex;"><span>        updateRefs = true
+</span></span><span style="display:flex;"><span>    [pull]
+</span></span><span style="display:flex;"><span>        rebase = true
+</span></span><span style="display:flex;"><span>    [push]
+</span></span><span style="display:flex;"><span>        default = simple
+</span></span><span style="display:flex;"><span>        autoSetupRemote = true
+</span></span><span style="display:flex;"><span>        followTags = true
+</span></span></code></pre></div><h2 id="formatting">Formatting</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>    [pretty]
+</span></span><span style="display:flex;"><span>        slog = format:%C(auto)%h %C(magenta)%ad %C(auto)%d%C(auto) %s %C(green)[%cn]
+</span></span></code></pre></div><h2 id="aliases">Aliases</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>    st = status -s
+</span></span><span style="display:flex;"><span>    pur = pull --rebase origin
+</span></span><span style="display:flex;"><span>    aa = add -A
+</span></span><span style="display:flex;"><span>    cm = commit -m
+</span></span><span style="display:flex;"><span>    ups = commit -a --amend
+</span></span><span style="display:flex;"><span>    co = checkout
+</span></span><span style="display:flex;"><span>    cob = checkout -b
+</span></span><span style="display:flex;"><span>    dh = diff HEAD
+</span></span><span style="display:flex;"><span>    wdiff = diff -w --word-diff=color --ignore-space-at-eol
+</span></span><span style="display:flex;"><span>    ls = log --pretty=slog --decorate --date=relative
+</span></span><span style="display:flex;"><span>    ll = log --pretty=slog --decorate --date=relative --numstat
+</span></span><span style="display:flex;"><span>    fl = log -u
+</span></span><span style="display:flex;"><span>    start = !git init &amp;&amp; git commit --allow-empty -m \&#34;Initial commit\&#34;
+</span></span></code></pre></div>
     
 </div>
 
