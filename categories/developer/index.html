@@ -11,7 +11,7 @@
     <meta name="author" content="Stefan Daugaard Poulsen">
     <meta name="description" content="cyberzeddk - opinions with a slight chance of snow">
     <meta name="keywords" content="blog,devops,platform engineering">
-    <meta name="generator" content="Hugo 0.150.0">
+    <meta name="generator" content="Hugo 0.151.0">
     <title>
         
            
@@ -151,126 +151,6 @@
     
         <div class="article-wrapper u-cf">
             
-                <a class="bubble" href="http://localhost:1313/article/git-alias-and-then-some/">
-    <i class="fas fa-fw fa-pencil-alt"></i>
-</a>
-
-<article class="default article">
-    
-
-    <div class="content">
-    <h1 class="article-title">
-        <a href="http://localhost:1313/article/git-alias-and-then-some/">
-            Git alias and then some
-        </a>
-    </h1>
-
-    <div class="meta">
-        
-            
-                <span class="date moment">2025-09-09</span>
-            
-        
-
-        
-            
-                <span class="readingTime">1 min read</span>
-            
-        
-
-        
-            <span class="categories">
-                
-                    
-                    
-                        <a href="http://localhost:1313/categories/developer/">Developer</a>
-                    
-                
-            </span>
-        
-
-        
-    </div>
-
-    
-        <p>Looking back at my old very single post about git aliases made me realize that I have changed quite a few bits since then. It&rsquo;s not just the aliases anymore, it&rsquo;s more about my full git configuration.</p>
-<h2 id="general-configurations">General configurations</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>    [column]
-</span></span><span style="display:flex;"><span>        ui = auto
-</span></span><span style="display:flex;"><span>    [branch]
-</span></span><span style="display:flex;"><span>        sort = -committerdate
-</span></span><span style="display:flex;"><span>    [tag]
-</span></span><span style="display:flex;"><span>        sort = version:refname
-</span></span><span style="display:flex;"><span>    [diff]
-</span></span><span style="display:flex;"><span>        algorithm = histogram
-</span></span><span style="display:flex;"><span>        colorMoved = plain
-</span></span><span style="display:flex;"><span>        mnemonixprefix = true
-</span></span><span style="display:flex;"><span>        renames = true
-</span></span><span style="display:flex;"><span>    [fetch]
-</span></span><span style="display:flex;"><span>        prune = true
-</span></span><span style="display:flex;"><span>        pruneTags = true
-</span></span><span style="display:flex;"><span>        all = true
-</span></span><span style="display:flex;"><span>    [rebase]
-</span></span><span style="display:flex;"><span>        autoStash = true
-</span></span><span style="display:flex;"><span>        autoSquash = true
-</span></span><span style="display:flex;"><span>        updateRefs = true
-</span></span><span style="display:flex;"><span>    [pull]
-</span></span><span style="display:flex;"><span>        rebase = true
-</span></span><span style="display:flex;"><span>    [push]
-</span></span><span style="display:flex;"><span>        default = simple
-</span></span><span style="display:flex;"><span>        autoSetupRemote = true
-</span></span><span style="display:flex;"><span>        followTags = true
-</span></span></code></pre></div><h2 id="formatting">Formatting</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>    [pretty]
-</span></span><span style="display:flex;"><span>        slog = format:%C(auto)%h %C(magenta)%ad %C(auto)%d%C(auto) %s %C(green)[%cn]
-</span></span></code></pre></div><h2 id="aliases">Aliases</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>    st = status -s
-</span></span><span style="display:flex;"><span>    pur = pull --rebase origin
-</span></span><span style="display:flex;"><span>    aa = add -A
-</span></span><span style="display:flex;"><span>    cm = commit -m
-</span></span><span style="display:flex;"><span>    ups = commit -a --amend
-</span></span><span style="display:flex;"><span>    co = checkout
-</span></span><span style="display:flex;"><span>    cob = checkout -b
-</span></span><span style="display:flex;"><span>    dh = diff HEAD
-</span></span><span style="display:flex;"><span>    wdiff = diff -w --word-diff=color --ignore-space-at-eol
-</span></span><span style="display:flex;"><span>    ls = log --pretty=slog --decorate --date=relative
-</span></span><span style="display:flex;"><span>    ll = log --pretty=slog --decorate --date=relative --numstat
-</span></span><span style="display:flex;"><span>    fl = log -u
-</span></span><span style="display:flex;"><span>    start = !git init &amp;&amp; git commit --allow-empty -m \&#34;Initial commit\&#34;
-</span></span></code></pre></div>
-
-        
-    
-</div>
-
-    
-<div class="footer">
-
-
-    
-        <div class="tags">
-            <i class="fa fa-tags"></i>
-            <div class="links">
-                
-                    
-                    
-                    <a href="http://localhost:1313/tags/git/">Git</a>
-                    
-                
-            </div>
-        </div>
-    
-
-    
-</div>
-
-</article>
-
-            
-        </div>
-    
-        <div class="article-wrapper u-cf">
-            
                 <a class="bubble" href="http://localhost:1313/article/the-hard-reality-of-recruiting/">
     <i class="fas fa-fw fa-pencil-alt"></i>
 </a>
@@ -359,102 +239,6 @@
             
         </div>
     
-        <div class="article-wrapper u-cf">
-            
-                <a class="bubble" href="http://localhost:1313/article/common-git-alias/">
-    <i class="fas fa-fw fa-pencil-alt"></i>
-</a>
-
-<article class="default article">
-    
-    <div class="featured-image">
-        <a href="http://localhost:1313/article/common-git-alias/">
-            <img src="https://live.staticflickr.com/8531/8498659842_91591e42a2_b.jpg" alt="">
-        </a>
-    </div>
-
-
-    <div class="content">
-    <h1 class="article-title">
-        <a href="http://localhost:1313/article/common-git-alias/">
-            Common Git Alias
-        </a>
-    </h1>
-
-    <div class="meta">
-        
-            
-                <span class="date moment">2021-05-06</span>
-            
-        
-
-        
-            
-                <span class="readingTime">1 min read</span>
-            
-        
-
-        
-            <span class="categories">
-                
-                    
-                    
-                        <a href="http://localhost:1313/categories/developer/">Developer</a>
-                    
-                
-            </span>
-        
-
-        
-    </div>
-
-    
-        <p>Over the years I have been collecting the aliases that makes sense for me, and by that I really mean makes sense for me :) I might have lost a few recently when I had to reinstall my laptop after a complete crash, but below you will find those I have recovered and remember to have been using quite a bunch.</p>
-<h2 id="common-actions">Common actions</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>    st - status -s
-</span></span><span style="display:flex;"><span>    dh - diff HEAD
-</span></span><span style="display:flex;"><span>    aa - add -A
-</span></span><span style="display:flex;"><span>    cm - commit -m
-</span></span><span style="display:flex;"><span>    ups - commit -a --amend
-</span></span></code></pre></div><h2 id="branches">Branches</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>    co - checkout
-</span></span><span style="display:flex;"><span>    cob - checkout -b
-</span></span><span style="display:flex;"><span>    pur = pull --rebase origin
-</span></span></code></pre></div><h2 id="log">Log</h2>
-<p>This part is mostly different views on logs, honestly I&rsquo;m not sure it would make sense for anyone but me. Use it for inspiration and go modify it to fit your needs. Tharrr be no silverbullets here neither.</p>
-
-        
-            <a href="http://localhost:1313/article/common-git-alias/" class="more">Continue reading</a>
-        
-    
-</div>
-
-    
-<div class="footer">
-
-
-    
-        <div class="tags">
-            <i class="fa fa-tags"></i>
-            <div class="links">
-                
-                    
-                    
-                    <a href="http://localhost:1313/tags/git/">Git</a>
-                    
-                
-            </div>
-        </div>
-    
-
-    
-</div>
-
-</article>
-
-            
-        </div>
-    
 
     
     <div class="paginator">
@@ -503,7 +287,13 @@
                 
                 <li>
                 
-                    <a href="http://localhost:1313/categories/developer/">Developer (3)</a>
+                    <a href="http://localhost:1313/categories/git/">Git (2)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="http://localhost:1313/categories/developer/">Developer (1)</a>
                 
                 </li>
                 
