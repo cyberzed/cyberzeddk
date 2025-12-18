@@ -6,8 +6,15 @@
     <description>Recent content in Git on cyberzeddk</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Sep 2025 18:01:16 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 09:20:44 +0100</lastBuildDate>
     <atom:link href="https://cyberzed.dk/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git alias and then some</title>
+      <link>https://cyberzed.dk/article/git-alias-and-then-some/</link>
+      <pubDate>Thu, 18 Dec 2025 09:02:00 +0200</pubDate>
+      <guid>https://cyberzed.dk/article/git-alias-and-then-some/</guid>
+      <description>&lt;p&gt;Looking back at my old very single post about git aliases made me realize that I have changed quite a few bits since then. It&amp;rsquo;s not just the aliases anymore, it&amp;rsquo;s more about my full git configuration.&lt;/p&gt;&#xA;&lt;h2 id=&#34;general-configurations&#34;&gt;General configurations&lt;/h2&gt;&#xA;&lt;p&gt;First of a few neat tips and tricks that are just convenient in your day to day life, depending on your taste of course.&lt;/p&gt;&#xA;&lt;p&gt;Instead of getting long lists git is able to show output in columns which I personally prefer&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Common Git Alias</title>
       <link>https://cyberzed.dk/article/common-git-alias/</link>
