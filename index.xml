@@ -1,47 +1,40 @@
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34; standalone=&#34;yes&#34;?&gt;
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cyberzeddk</title>
     <link>https://cyberzed.dk/</link>
-    <description>Recent content on cyberzeddk</description>
+    <description>cyberzeddk - opinions with a slight chance of snow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Dec 2025 09:02:00 +0200</lastBuildDate>
-    
-        <atom:link href="https://cyberzed.dk/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://cyberzed.dk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git alias and then some</title>
       <link>https://cyberzed.dk/article/git-alias-and-then-some/</link>
       <pubDate>Thu, 18 Dec 2025 09:02:00 +0200</pubDate>
-      
       <guid>https://cyberzed.dk/article/git-alias-and-then-some/</guid>
       <description>&lt;p&gt;Looking back at my old very single post about git aliases made me realize that I have changed quite a few bits since then. It&amp;rsquo;s not just the aliases anymore, it&amp;rsquo;s more about my full git configuration.&lt;/p&gt;
 &lt;h2 id=&#34;general-configurations&#34;&gt;General configurations&lt;/h2&gt;
 &lt;p&gt;First of a few neat tips and tricks that are just convenient in your day to day life, depending on your taste of course.&lt;/p&gt;
 &lt;p&gt;Instead of getting long lists git is able to show output in columns which I personally prefer&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Common Git Alias</title>
       <link>https://cyberzed.dk/article/common-git-alias/</link>
       <pubDate>Thu, 06 May 2021 16:00:00 +0200</pubDate>
-      
       <guid>https://cyberzed.dk/article/common-git-alias/</guid>
       <description>&lt;p&gt;Over the years I have been collecting the aliases that makes sense for me, and by that I really mean makes sense for me :) I might have lost a few recently when I had to reinstall my laptop after a complete crash, but below you will find those I have recovered and remember to have been using quite a bunch.&lt;/p&gt;
 &lt;h2 id=&#34;common-actions&#34;&gt;Common actions&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    st - status -s
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    st - status -s
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    dh - diff HEAD
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    aa - add -A
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cm - commit -m
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ups - commit -a --amend
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;branches&#34;&gt;Branches&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    co - checkout
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    co - checkout
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cob - checkout -b
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pur = pull --rebase origin
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;log&#34;&gt;Log&lt;/h2&gt;
 &lt;p&gt;This part is mostly different views on logs, honestly I&amp;rsquo;m not sure it would make sense for anyone but me. Use it for inspiration and go modify it to fit your needs. Tharrr be no silverbullets here neither.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
