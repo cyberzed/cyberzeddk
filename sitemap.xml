@@ -1,39 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://cyberzed.dk/article/</loc>
-    <lastmod>2025-12-18T09:02:00+02:00</lastmod>
-  </url><url>
-    <loc>https://cyberzed.dk/categories/</loc>
-    <lastmod>2025-12-18T09:02:00+02:00</lastmod>
-  </url><url>
-    <loc>https://cyberzed.dk/</loc>
-    <lastmod>2025-12-18T09:02:00+02:00</lastmod>
-  </url><url>
-    <loc>https://cyberzed.dk/categories/git/</loc>
-    <lastmod>2025-12-18T09:02:00+02:00</lastmod>
-  </url><url>
-    <loc>https://cyberzed.dk/tags/git/</loc>
-    <lastmod>2025-12-18T09:02:00+02:00</lastmod>
-  </url><url>
-    <loc>https://cyberzed.dk/article/git-alias-and-then-some/</loc>
-    <lastmod>2025-12-18T09:02:00+02:00</lastmod>
-  </url><url>
-    <loc>https://cyberzed.dk/tags/</loc>
-    <lastmod>2025-12-18T09:02:00+02:00</lastmod>
-  </url><url>
-    <loc>https://cyberzed.dk/speaker/</loc>
-    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyberzed.dk/article/common-git-alias/</loc>
-    <lastmod>2021-05-06T16:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://cyberzed.dk/about/</loc>
-    <lastmod>2021-05-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyberzed.dk/author/</loc>
-  </url><url>
-    <loc>https://cyberzed.dk/series/</loc>
-  </url>
+  
+    
+  
+    
+      <url>
+            <loc>https://cyberzed.dk/blog/git-alias-and-then-some/</loc>
+            <lastmod>2026-05-12T18:00:00+02:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://cyberzed.dk/speaker/</loc>
+            <lastmod>2026-05-12T18:00:00+02:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://cyberzed.dk/blog/common-git-alias/</loc>
+            <lastmod>2026-05-12T18:00:00+02:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://cyberzed.dk/about/</loc>
+            <lastmod>2026-05-12T18:00:00+02:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://cyberzed.dk/blog/</loc>
+            <lastmod>2026-05-12T18:00:00+02:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://cyberzed.dk/</loc>
+            <lastmod>2026-05-12T18:00:00+02:00</lastmod>
+          </url>
+    
+  
+    
+  
 </urlset>

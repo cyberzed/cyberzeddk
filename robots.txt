@@ -1,1 +1,3 @@
 User-agent: *
+Allow: /
+Sitemap: https://cyberzed.dk/sitemap.xml
